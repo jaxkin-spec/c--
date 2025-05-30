@@ -1294,12 +1294,14 @@
     "criteria": {
       "minecraft:blaze": "2025-05-28 22:19:15 +0000",
       "minecraft:skeleton": "2025-05-29 23:29:40 +0000",
+      "minecraft:piglin": "2025-05-30 00:22:03 +0000",
       "minecraft:enderman": "2025-05-28 21:48:50 +0000",
       "minecraft:spider": "2025-05-29 23:10:39 +0000",
       "minecraft:wither_skeleton": "2025-05-30 00:07:50 +0000",
       "minecraft:zombie": "2025-05-28 23:30:05 +0000",
       "minecraft:drowned": "2025-05-30 00:11:02 +0000",
-      "minecraft:ghast": "2025-05-28 21:44:55 +0000"
+      "minecraft:ghast": "2025-05-28 21:44:55 +0000",
+      "minecraft:hoglin": "2025-05-30 00:19:34 +0000"
     },
     "done": false
   },
@@ -2125,6 +2127,12 @@
     },
     "done": true
   },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2025-05-30 00:17:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
       "has_log": "2025-05-29 23:43:58 +0000"
@@ -2152,6 +2160,12 @@
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-05-29 23:53:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-05-30 00:12:32 +0000"
     },
     "done": true
   },
@@ -2188,6 +2202,12 @@
   "minecraft:recipes/decorations/cherry_sign": {
     "criteria": {
       "has_planks": "2025-05-29 22:57:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-05-30 00:18:18 +0000"
     },
     "done": true
   },
@@ -2266,6 +2286,12 @@
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2025-05-29 23:58:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-05-30 00:15:06 +0000"
     },
     "done": true
   },
