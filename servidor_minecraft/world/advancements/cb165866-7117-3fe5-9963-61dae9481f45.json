@@ -8,13 +8,21 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-05-29 00:05:40 +0000",
+      "minecraft:beach": "2025-05-29 23:56:05 +0000",
+      "minecraft:dark_forest": "2025-05-29 23:43:35 +0000",
       "minecraft:forest": "2025-05-28 21:00:08 +0000",
+      "minecraft:taiga": "2025-05-29 23:58:33 +0000",
+      "minecraft:river": "2025-05-28 21:27:01 +0000",
+      "minecraft:stony_shore": "2025-05-28 21:18:33 +0000",
+      "minecraft:lush_caves": "2025-05-29 23:47:10 +0000",
+      "minecraft:dripstone_caves": "2025-05-29 23:27:11 +0000",
+      "minecraft:old_growth_birch_forest": "2025-05-30 00:04:48 +0000",
       "minecraft:deep_dark": "2025-05-28 23:38:03 +0000",
       "minecraft:ocean": "2025-05-28 21:20:33 +0000",
       "minecraft:sunflower_plains": "2025-05-28 21:18:37 +0000",
       "minecraft:cherry_grove": "2025-05-28 23:57:50 +0000",
-      "minecraft:river": "2025-05-28 21:27:01 +0000",
-      "minecraft:stony_shore": "2025-05-28 21:18:33 +0000",
+      "minecraft:meadow": "2025-05-29 23:40:43 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-05-29 23:57:30 +0000",
       "minecraft:plains": "2025-05-28 20:55:35 +0000"
     },
     "done": false
@@ -371,6 +379,7 @@
     "criteria": {
       "cooked_porkchop": "2025-05-28 21:17:38 +0000",
       "bread": "2025-05-28 21:26:28 +0000",
+      "cooked_chicken": "2025-05-29 23:29:58 +0000",
       "cooked_mutton": "2025-05-28 22:19:20 +0000",
       "cooked_beef": "2025-05-28 23:58:13 +0000",
       "baked_potato": "2025-05-28 22:25:24 +0000",
@@ -1284,8 +1293,12 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-05-28 22:19:15 +0000",
+      "minecraft:skeleton": "2025-05-29 23:29:40 +0000",
       "minecraft:enderman": "2025-05-28 21:48:50 +0000",
+      "minecraft:spider": "2025-05-29 23:10:39 +0000",
+      "minecraft:wither_skeleton": "2025-05-30 00:07:50 +0000",
       "minecraft:zombie": "2025-05-28 23:30:05 +0000",
+      "minecraft:drowned": "2025-05-30 00:11:02 +0000",
       "minecraft:ghast": "2025-05-28 21:44:55 +0000"
     },
     "done": false
@@ -2112,15 +2125,63 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-05-29 23:43:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-05-29 23:58:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-30 00:03:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cherry_slab": {
     "criteria": {
       "has_planks": "2025-05-29 22:57:55 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-05-29 23:53:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-05-30 00:07:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/cherry_fence_gate": {
     "criteria": {
       "has_planks": "2025-05-29 22:57:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-05-30 00:03:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-05-29 23:10:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-05-29 23:53:13 +0000"
     },
     "done": true
   },
@@ -2136,6 +2197,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-29 23:43:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-05-29 23:43:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cherry_fence": {
     "criteria": {
       "has_planks": "2025-05-29 22:57:55 +0000"
@@ -2145,6 +2218,30 @@
   "minecraft:recipes/building_blocks/cherry_stairs": {
     "criteria": {
       "has_planks": "2025-05-29 22:57:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-30 00:03:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-05-29 23:25:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-30 00:03:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-30 00:03:02 +0000"
     },
     "done": true
   },
@@ -2160,9 +2257,63 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-05-29 23:50:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-05-29 23:58:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-30 00:03:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2025-05-29 23:43:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-30 00:03:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/cherry_door": {
     "criteria": {
       "has_planks": "2025-05-29 22:57:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-30 00:03:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-30 00:03:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-29 23:50:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-29 23:50:40 +0000"
     },
     "done": true
   },

@@ -1,178 +1,43 @@
-[22:32:04] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[22:32:04] [main/INFO]: Loading 49 mods:
-	- appleskin 3.0.6+mc1.21
-	   \-- cloth-config 15.0.127
-	        \-- cloth-basic-math 0.6.1
-	- clumps 18.0.0.2
-	- fabric-api 0.102.0+1.21
-	   |-- fabric-api-base 0.4.42+6573ed8cd1
-	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
-	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
-	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
-	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
-	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
-	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
-	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
-	   |-- fabric-commands-v0 0.2.66+df3654b3d1
-	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
-	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
-	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
-	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
-	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
-	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
-	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
-	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
-	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
-	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
-	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
-	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
-	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
-	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
-	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
-	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
-	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
-	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
-	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
-	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
-	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
-	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
-	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
-	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
-	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
-	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
-	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
-	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
-	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
-	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
-	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
-	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
-	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
-	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
-	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
-	- fabricloader 0.16.3
-	   \-- mixinextras 0.4.1
-	- jade 15.1.5+fabric
-	- java 21
-	- jei 19.21.0.247
-	- minecraft 1.21
-	- xaerominimap 25.1.0
-	- xaeroworldmap 1.39.2
-[22:32:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/c--/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:32:05] [main/INFO]: Compatibility level set to JAVA_21
-[22:32:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[22:32:12] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[22:32:12] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[22:32:12] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:32:14] [main/INFO]: Loaded 1290 recipes
-[22:32:14] [main/INFO]: Loaded 1399 advancements
-[22:32:15] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.344 ms
-[22:32:15] [Server thread/INFO]: Starting minecraft server version 1.21
-[22:32:15] [Server thread/INFO]: Loading properties
-[22:32:15] [Server thread/INFO]: Default game type: SURVIVAL
-[22:32:15] [Server thread/INFO]: Generating keypair
-[22:32:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:32:15] [Server thread/INFO]: Using epoll channel type
-[22:32:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:32:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:32:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:32:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:32:15] [Server thread/INFO]: Preparing level "world"
-[22:32:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:32:19] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[22:32:19] [Server thread/INFO]: Time elapsed: 546 ms
-[22:32:19] [Server thread/INFO]: Done (4.108s)! For help, type "help"
-[22:32:19] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[22:32:19] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[22:32:19] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[22:32:19] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[22:32:19] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[22:32:19] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[22:40:03] [Server thread/INFO]: asso__p[/127.175.166.180:36007] logged in with entity id 15 at (-287.52456979199496, 194.0, -531.3877626045976)
-[22:40:03] [Server thread/INFO]: asso__p joined the game
-[22:40:34] [Server thread/INFO]: asso__p fell from a high place
-[22:40:59] [Server thread/INFO]: [asso__p: Teleported asso__p to -276.500000, 96.500000, -530.500000]
-[22:41:11] [Server thread/INFO]: asso__p was slain by Zombie
-[22:41:37] [Server thread/INFO]: [asso__p: Teleported asso__p to -298.500000, 89.500000, -532.500000]
-[22:41:48] [Server thread/INFO]: [asso__p: Teleported asso__p to -288.500000, 194.500000, -531.500000]
-[22:41:55] [Server thread/INFO]: asso__p fell from a high place
-[22:42:25] [Server thread/INFO]: [asso__p: Teleported asso__p to -285.500000, 170.500000, -531.500000]
-[22:48:10] [Server thread/INFO]: shlz07[/127.66.244.176:35987] logged in with entity id 1862 at (-45.5, 81.0, -17.5)
-[22:48:10] [Server thread/INFO]: shlz07 joined the game
-[22:49:23] [Server thread/INFO]: [Not Secure] <asso__p> hoa
-[22:49:53] [Server thread/INFO]: [asso__p: Teleported shlz07 to asso__p]
-[22:49:54] [Server thread/INFO]: shlz07 lost connection: Disconnected
-[22:49:54] [Server thread/INFO]: shlz07 left the game
-[22:51:43] [Server thread/INFO]: shlz07[/127.66.244.176:49925] logged in with entity id 2504 at (-276.36159038376076, 163.0, -531.6999999880791)
-[22:51:43] [Server thread/INFO]: shlz07 joined the game
-[22:52:11] [Server thread/INFO]: [Not Secure] <shlz07> jajjajaja
-[22:52:14] [Server thread/INFO]: [Not Secure] <shlz07> no mmes
-[22:52:17] [Server thread/INFO]: [Not Secure] <shlz07> el gustavo frin
-[22:53:28] [Server thread/INFO]: [Not Secure] <shlz07> ahora como bajamos xd
-[22:53:47] [Server thread/INFO]: [Not Secure] <asso__p> bajando
-[22:53:54] [Server thread/INFO]: asso__p was doomed to fall by shlz07
-[22:53:58] [Server thread/INFO]: [shlz07: Teleported shlz07 to asso__p]
-[22:54:44] [Server thread/INFO]: [Not Secure] <asso__p> xd
-[22:54:55] [Server thread/INFO]: [Not Secure] <asso__p> a donde vamos
-[22:55:00] [Server thread/INFO]: [Not Secure] <shlz07> noc
-[22:55:03] [Server thread/INFO]: [Not Secure] <shlz07> yo voy a picar
-[22:55:20] [Server thread/INFO]: shlz07 was shot by Skeleton
-[22:56:09] [Server thread/INFO]: shlz07 was shot by Skeleton
-[22:56:18] [Server thread/INFO]: [Not Secure] <asso__p> kaja
-[22:57:09] [Server thread/INFO]: [Not Secure] <asso__p> nos ponemos full iron
-[22:57:14] [Server thread/INFO]: [Not Secure] <asso__p> y nos vamos a explorar?
-[22:57:17] [Server thread/INFO]: [Not Secure] <shlz07> y dragon xd
-[22:57:18] [Server thread/INFO]: [Not Secure] <shlz07> a
-[22:57:21] [Server thread/INFO]: [Not Secure] <asso__p> a xd
-[22:57:22] [Server thread/INFO]: [Not Secure] <shlz07> bueno xd
-[22:57:31] [Server thread/INFO]: [Not Secure] <asso__p> yo digo pa un casita
-[22:57:39] [Server thread/INFO]: [Not Secure] <shlz07> yo digo pa elitros
-[22:57:45] [Server thread/INFO]: [Not Secure] <asso__p> bueno
-[22:57:52] [Server thread/INFO]: [Not Secure] <shlz07> cada uno cada cosa?
-[22:58:05] [Server thread/INFO]: [Not Secure] <asso__p> yo me voy a explorar?
-[22:58:13] [Server thread/INFO]: [Not Secure] <shlz07> si queires
-[22:58:39] [Server thread/INFO]: [asso__p: Teleported asso__p to shlz07]
-[22:59:03] [Server thread/INFO]: [Not Secure] <shlz07> a
-[22:59:07] [Server thread/INFO]: [Not Secure] <shlz07> gracias xd
-[22:59:11] [Server thread/INFO]: [Not Secure] <shlz07> en que capa era diamantes?
-[22:59:17] [Server thread/INFO]: [Not Secure] <asso__p> -58 creo
-[22:59:20] [Server thread/INFO]: [Not Secure] <shlz07> hasta las ultimas no?
-[22:59:21] [Server thread/INFO]: [Not Secure] <shlz07> salaverga
-[22:59:31] [Server thread/INFO]: [Not Secure] <asso__p> llevas antorchas?
-[22:59:31] [Server thread/INFO]: [Not Secure] <asso__p> xd
-[22:59:49] [Server thread/INFO]: [Not Secure] <shlz07> no
-[23:00:46] [Server thread/INFO]: [shlz07: Teleported shlz07 to asso__p]
-[23:01:00] [Server thread/INFO]: [asso__p: Teleported asso__p to -276.500000, 96.500000, -530.500000]
-[23:01:09] [Server thread/INFO]: [Not Secure] <shlz07> me psas antorchas? xd
-[23:01:17] [Server thread/INFO]: [asso__p: Teleported asso__p to -292.500000, -36.500000, -547.500000]
-[23:01:20] [Server thread/INFO]: [asso__p: Teleported shlz07 to asso__p]
-[23:01:31] [Server thread/INFO]: [Not Secure] <shlz07> no mmes aqui no
-[23:01:37] [Server thread/INFO]: [Not Secure] <asso__p> por si ocupas
-[23:01:47] [Server thread/INFO]: [asso__p: Teleported shlz07 to asso__p]
-[23:01:49] [Server thread/INFO]: [Not Secure] <shlz07> que vrg aoendejo
-[23:02:12] [Server thread/INFO]: [asso__p: Teleported asso__p to -276.500000, 96.500000, -530.500000]
-[23:02:28] [Server thread/INFO]: [asso__p: Teleported asso__p to -292.500000, -36.500000, -547.500000]
-[23:02:38] [Server thread/INFO]: [Not Secure] <asso__p> por si ocupas
-[23:02:41] [Server thread/INFO]: [asso__p: Teleported asso__p to -276.500000, 96.500000, -530.500000]
-[23:02:50] [Server thread/INFO]: [asso__p: Teleported asso__p to -292.500000, -36.500000, -547.500000]
-[23:03:02] [Server thread/INFO]: [Not Secure] <asso__p> bueno io me voy
-[23:03:08] [Server thread/INFO]: [asso__p: Teleported asso__p to -276.500000, 96.500000, -530.500000]
-[23:03:10] [Server thread/INFO]: [Not Secure] <shlz07> llevate todo
-[23:03:20] [Server thread/INFO]: [Not Secure] <asso__p> no me cabe
-[23:03:29] [Server thread/INFO]: [Not Secure] <shlz07> dejame cosas a mi
-[23:03:31] [Server thread/INFO]: [Not Secure] <asso__p> pero lo tengo marcado
-[23:03:36] [Server thread/INFO]: [Not Secure] <shlz07> bueno xd
-[23:06:28] [Server thread/INFO]: [shlz07: Teleported shlz07 to -96.500000, -41.500000, -500.500000]
-[23:08:22] [Server thread/INFO]: [shlz07: Teleported shlz07 to -76.500000, -52.500000, -487.500000]
-[23:10:19] [Server thread/INFO]: [asso__p: Teleported asso__p to 30.500000, 85.500000, -586.500000]
-[23:10:27] [Server thread/INFO]: [Not Secure] <asso__p> jaja esta bien vrgs aca
-[23:10:37] [Server thread/INFO]: [Not Secure] <shlz07> oral
-[23:10:42] [Server thread/INFO]: [Not Secure] <shlz07> no me hagas tp
-[23:10:42] [Server thread/INFO]: [Not Secure] <asso__p> ora
-[23:10:53] [Server thread/INFO]: [Not Secure] <asso__p> si not e iba a hacer tp
-[23:11:02] [Server thread/INFO]: [Not Secure] <asso__p> ni tu te hagas tp xd
-[23:11:05] [Server thread/INFO]: [Not Secure] <asso__p> ando re lejos xd
-[23:11:41] [Server thread/INFO]: [Not Secure] <shlz07> llevo mas oro que hierro xd
+[00:00:07] [Server thread/INFO]: [Not Secure] <shlz07> tontito donde te fuiste
+[00:00:39] [Server thread/INFO]: [Not Secure] <asso__p> tontito tu
+[00:00:45] [Server thread/INFO]: [shlz07: Teleported shlz07 to asso__p]
+[00:01:21] [Server thread/INFO]: [Not Secure] <shlz07> tiens mas comida?
+[00:01:26] [Server thread/INFO]: [Not Secure] <asso__p> no tienes caborn xd?
+[00:01:36] [Server thread/INFO]: [Not Secure] <shlz07> mno}{}p´{ñ{´lñ
+[00:01:40] [Server thread/INFO]: [Not Secure] <asso__p> simon
+[00:02:29] [Server thread/INFO]: [shlz07: Teleported shlz07 to -365.500000, 63.500000, -455.500000]
+[00:02:52] [Server thread/INFO]: [shlz07: Teleported shlz07 to asso__p]
+[00:03:08] [Server thread/INFO]: [Not Secure] <asso__p> luis ven
+[00:03:21] [Server thread/INFO]: [asso__p: Teleported shlz07 to asso__p]
+[00:03:32] [Server thread/INFO]: [Not Secure] <asso__p> a
+[00:03:36] [Server thread/INFO]: [Not Secure] <shlz07> xd
+[00:03:38] [Server thread/INFO]: [Not Secure] <asso__p> xd
+[00:03:46] [Server thread/INFO]: [Not Secure] <asso__p> segun yo se podia lanzar xd
+[00:03:53] [Server thread/INFO]: [shlz07: Teleported shlz07 to -365.500000, 63.500000, -455.500000]
+[00:04:02] [Server thread/INFO]: [Not Secure] <shlz07> ni que fuera skywars
+[00:04:47] [Server thread/INFO]: [asso__p: Teleported asso__p to 529.500000, 73.500000, -305.500000]
+[00:04:55] [Server thread/INFO]: [shlz07: Teleported shlz07 to -98.500000, 67.500000, -241.500000]
+[00:05:26] [Server thread/INFO]: [Not Secure] <shlz07> wey
+[00:05:30] [Server thread/INFO]: [Not Secure] <asso__p> eu
+[00:05:32] [Server thread/INFO]: [Not Secure] <shlz07> ven
+[00:05:37] [Server thread/INFO]: [asso__p: Teleported asso__p to -276.500000, 96.500000, -530.500000]
+[00:05:49] [Server thread/INFO]: [asso__p: Teleported asso__p to shlz07]
+[00:05:53] [Server thread/INFO]: [Not Secure] <asso__p> ay
+[00:05:58] [Server thread/INFO]: [Not Secure] <shlz07> mira e
+[00:06:03] [Server thread/INFO]: [Not Secure] <shlz07> ????
+[00:06:09] [Server thread/INFO]: [Not Secure] <asso__p> que
+[00:06:24] [Server thread/INFO]: [Not Secure] <asso__p> ?
+[00:06:30] [Server thread/INFO]: [Not Secure] <shlz07> pa q lo matas
+[00:06:38] [Server thread/INFO]: [Not Secure] <asso__p> que tenia o que xd
+[00:06:54] [Server thread/INFO]: shlz07 has made the advancement [Not Today, Thank You]
+[00:07:10] [Server thread/INFO]: asso__p has made the advancement [Not Today, Thank You]
+[00:07:46] [Server thread/INFO]: [Not Secure] <asso__p> esta grandisima
+[00:07:58] [Server thread/INFO]: [Not Secure] <asso__p> mi pariente
+[00:08:03] [Server thread/INFO]: [Not Secure] <asso__p> ten
+[00:08:15] [Server thread/INFO]: [asso__p: Teleported asso__p to -31.500000, 64.500000, -65.500000]
+[00:08:35] [Server thread/INFO]: [asso__p: Teleported asso__p to 971.500000, 63.500000, 58.500000]
+[00:08:47] [Server thread/INFO]: [shlz07: Teleported shlz07 to -100.500000, 67.500000, -225.500000]
+[00:09:37] [Server thread/INFO]: [Not Secure] <asso__p> solo me faltan 3 manderas
+[00:10:04] [Server thread/INFO]: [Not Secure] <asso__p> jaja te iba a decir zz
+[00:11:28] [Server thread/INFO]: [asso__p: Teleported asso__p to -276.500000, 96.500000, -530.500000]
+[00:12:24] [Server thread/INFO]: [asso__p: Teleported asso__p to 1026.500000, 66.500000, 59.500000]
