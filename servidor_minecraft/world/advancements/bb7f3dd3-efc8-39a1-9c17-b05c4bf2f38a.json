@@ -2231,12 +2231,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2025-06-03 22:44:08 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2025-06-03 22:24:38 +0000"
@@ -2246,6 +2240,18 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-06-03 22:24:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-06-03 22:41:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-06-03 22:44:08 +0000"
     },
     "done": true
   },
@@ -2261,18 +2267,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
-    "criteria": {
-      "has_sunflower": "2025-06-03 22:41:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/follow_ender_eye": {
-    "criteria": {
-      "in_stronghold": "2025-06-03 23:17:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-06-03 22:45:10 +0000"
@@ -2282,6 +2276,12 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2025-06-03 22:45:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-06-03 23:17:21 +0000"
     },
     "done": true
   },
