@@ -1021,7 +1021,8 @@
       "minecraft:magma_cube": "2025-05-30 00:08:38 +0000",
       "minecraft:spider": "2025-05-29 23:40:08 +0000",
       "minecraft:wither_skeleton": "2025-05-30 00:09:05 +0000",
-      "minecraft:zombie": "2025-05-28 23:30:06 +0000"
+      "minecraft:zombie": "2025-05-28 23:30:06 +0000",
+      "minecraft:ender_dragon": "2025-06-04 00:03:22 +0000"
     },
     "done": false
   },
@@ -2282,6 +2283,12 @@
   "minecraft:story/follow_ender_eye": {
     "criteria": {
       "in_stronghold": "2025-06-03 23:17:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2025-06-04 00:03:22 +0000"
     },
     "done": true
   },
