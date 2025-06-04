@@ -1023,7 +1023,8 @@
       "minecraft:spider": "2025-05-29 23:40:08 +0000",
       "minecraft:wither_skeleton": "2025-05-30 00:09:05 +0000",
       "minecraft:zombie": "2025-05-28 23:30:06 +0000",
-      "minecraft:ender_dragon": "2025-06-04 00:03:22 +0000"
+      "minecraft:ender_dragon": "2025-06-04 00:03:22 +0000",
+      "minecraft:shulker": "2025-06-04 00:34:28 +0000"
     },
     "done": false
   },
@@ -2353,6 +2354,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-06-04 00:33:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/end_stone_bricks": {
     "criteria": {
       "has_end_stone": "2025-06-03 23:50:05 +0000"
@@ -2374,6 +2381,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2025-06-03 23:35:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-06-04 00:34:30 +0000"
     },
     "done": true
   },
@@ -2416,6 +2429,12 @@
   "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2025-06-03 23:50:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-06-04 00:34:28 +0000"
     },
     "done": true
   },

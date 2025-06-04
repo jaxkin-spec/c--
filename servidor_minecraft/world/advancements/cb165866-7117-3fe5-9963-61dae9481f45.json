@@ -385,6 +385,7 @@
       "cooked_chicken": "2025-05-29 23:29:58 +0000",
       "cooked_mutton": "2025-05-28 22:19:20 +0000",
       "cooked_beef": "2025-05-28 23:58:13 +0000",
+      "chorus_fruit": "2025-06-04 00:34:02 +0000",
       "baked_potato": "2025-05-28 22:25:24 +0000",
       "carrot": "2025-05-28 23:40:58 +0000"
     },
@@ -1305,7 +1306,8 @@
       "minecraft:zombie": "2025-05-28 23:30:05 +0000",
       "minecraft:drowned": "2025-05-30 00:11:02 +0000",
       "minecraft:ghast": "2025-05-28 21:44:55 +0000",
-      "minecraft:hoglin": "2025-05-30 00:19:34 +0000"
+      "minecraft:hoglin": "2025-05-30 00:19:34 +0000",
+      "minecraft:shulker": "2025-06-04 00:34:37 +0000"
     },
     "done": false
   },
@@ -2419,6 +2421,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2025-06-04 00:35:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-06-04 00:34:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:end/dragon_egg": {
     "criteria": {
       "dragon_egg": "2025-06-04 00:04:32 +0000"
@@ -2503,6 +2517,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-06-04 00:33:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:end/enter_end_gateway": {
     "criteria": {
       "entered_end_gateway": "2025-06-04 00:21:38 +0000"
@@ -2557,9 +2577,27 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-06-04 00:34:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2025-06-04 00:35:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2025-06-03 22:44:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-06-04 00:35:28 +0000"
     },
     "done": true
   },
@@ -2596,6 +2634,12 @@
   "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
     "criteria": {
       "has_mossy_stone_bricks": "2025-06-03 23:20:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-06-04 00:35:28 +0000"
     },
     "done": true
   },
@@ -2671,6 +2715,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-06-04 00:34:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2025-06-03 22:41:25 +0000"
@@ -2689,9 +2739,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2025-06-04 00:35:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/enter_the_end": {
     "criteria": {
       "entered_end": "2025-06-03 23:39:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-06-04 00:35:28 +0000"
     },
     "done": true
   },
