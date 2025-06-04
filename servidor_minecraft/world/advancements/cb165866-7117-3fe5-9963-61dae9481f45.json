@@ -2407,6 +2407,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-06-04 00:12:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:end/dragon_egg": {
     "criteria": {
       "dragon_egg": "2025-06-04 00:04:32 +0000"
@@ -2566,6 +2572,12 @@
   "minecraft:end/root": {
     "criteria": {
       "entered_end": "2025-06-03 23:39:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-06-04 00:12:48 +0000"
     },
     "done": true
   },
